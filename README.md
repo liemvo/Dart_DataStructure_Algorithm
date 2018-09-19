@@ -1,10 +1,10 @@
-# Dart DataStruture & Algorithm
+# Dart Data Structure & Algorithm
 
-Clean and simple in Dart. There are several data structure and algorithm are implmented in Dart langauge. 
+Clean and simple in Dart. There are several data structure and algorithm are implemented in Dart language.
 
 ##### Sorting algorithms
 - [Bubble Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/BubbleSort/BubbleSort.dart)
-
+- [Insertion Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/BubbleSort/BubbleSort.dart)
 
 
 ## Author
