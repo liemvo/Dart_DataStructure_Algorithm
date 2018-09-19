@@ -5,7 +5,11 @@ Clean and simple in Dart. There are several data structure and algorithm are imp
 ##### Sorting algorithms
 - [Bubble Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/BubbleSort/BubbleSort.dart)
 - [Insertion Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/BubbleSort/BubbleSort.dart)
+- [Selection Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/SelectionSort/SelectionSort.dart)
 
+## License
+
+This project is licensed under the **MIT License**.
 
 ## Author
 ** Liem Vo ** - [Profile](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/BubbleSort/BubbleSort.dart)
