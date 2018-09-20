@@ -37,7 +37,7 @@ void merge(List list, int leftIndex, int middleIndex, int rightIndex) {
 
 void mergeSort(List list, int leftIndex, int rightIndex) {
   if (leftIndex < rightIndex) {
-    int middleIndex = ((rightIndex + leftIndex) / 2).round() - 1;
+    int middleIndex = (rightIndex + leftIndex) ~/ 2;
 
     mergeSort(list, leftIndex, middleIndex);
     mergeSort(list, middleIndex + 1, rightIndex);

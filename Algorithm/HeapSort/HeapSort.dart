@@ -22,7 +22,7 @@ void heapify(List list, int n, int i) {
 
 void heapSort(List list){
   int n = list.length;
-  for (int i = ((n / 2 ).round()   - 1) ; i >= 0; i--){
+  for (int i = (n ~/ 2 ) ; i >= 0; i--){
     heapify(list, n, i);
   }
 
