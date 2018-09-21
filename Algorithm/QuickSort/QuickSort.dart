@@ -8,12 +8,6 @@ int partition(List list, int low, int high) {
       i++;
       swap(list, i, j);
     }
-  }
-
-//  int temp = list[i+1];
-//  list[i+1] = list[high];
-//  list[high] = temp;
-
   swap(list, i+1, high);
   return i+1;
 }
