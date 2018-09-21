@@ -15,12 +15,16 @@ void combSort(List list) {
     int i = 0;
     while (i + gapValue < list.length) {
       if (list[i] > list[i + gapValue]) {
-        int temp = list[i];
-        list[i] = list[i+gapValue];
-        list[i+gapValue] = temp;
+        swap(list, i, gapValue);
         sorted = false;
       }
       i++;
     }
   }
+}
+
+void swap(List list, int i, int gapValue) {
+  int temp = list[i];
+  list[i] = list[i+gapValue];
+  list[i+gapValue] = temp;
 }

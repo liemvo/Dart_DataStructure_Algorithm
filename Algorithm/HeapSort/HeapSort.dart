@@ -12,12 +12,15 @@ void heapify(List list, int n, int i) {
   }
 
   if (largest != i) {
-    int swap = list[i];
-    list[i] = list[largest];
-    list[largest] = swap;
-
+    swapList(list, i, largest);
     heapify(list, n, largest);
   }
+}
+
+void swapList(List list, int i, int largest) {
+  int swap = list[i];
+  list[i] = list[largest];
+  list[largest] = swap;
 }
 
 void heapSort(List list){
@@ -27,9 +30,13 @@ void heapSort(List list){
   }
 
   for (int i = n-1; i>=0; i--) {
-    int temp = list[0];
-    list[0] = list[i];
-    list[i] = temp;
+    swap(list, i);
     heapify(list, i, 0);
   }
+}
+
+void swap(List list, int i) {
+  int temp = list[0];
+  list[0] = list[i];
+  list[i] = temp;
 }

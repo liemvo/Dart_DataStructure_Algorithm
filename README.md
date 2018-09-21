@@ -11,7 +11,7 @@ Clean and simple in Dart. There are several data structure and algorithm are imp
 - [Insertion Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/BubbleSort/BubbleSort.dart)
 - [Selection Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/SelectionSort/SelectionSort.dart)
 - [Comb Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/CombSort/CombSort.dart)
-- Cocktail Sort
+- [Cocktail Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/CocktailSort/CocktailSort.dart)
 - Gnome Sort
 - Tree Sort
 - Shell Sort

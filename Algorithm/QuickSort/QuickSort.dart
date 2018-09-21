@@ -6,17 +6,22 @@ int partition(List list, int low, int high) {
   for (int j = low; j < high; j++) {
     if (list[j] <= pivot) {
       i++;
-      int temp = list[i];
-      list[i] = list[j];
-      list[j] = temp;
+      swap(list, i, j);
     }
   }
 
-  int temp = list[i+1];
-  list[i+1] = list[high];
-  list[high] = temp;
+//  int temp = list[i+1];
+//  list[i+1] = list[high];
+//  list[high] = temp;
 
+  swap(list, i+1, high);
   return i+1;
+}
+
+void swap(List list, int i, int j) {
+  int temp = list[i];
+  list[i] = list[j];
+  list[j] = temp;
 }
 
 void quickSort(List list, int low, int high) {
