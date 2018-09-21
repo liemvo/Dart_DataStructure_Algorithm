@@ -13,12 +13,6 @@ Clean and simple in Dart. There are several data structure and algorithm are imp
 - [Comb Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/CombSort/CombSort.dart)
 - [Cocktail Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/CocktailSort/CocktailSort.dart)
 - [Gnome Sort](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/GnomeSort/GnomeSort.dart)
-- Tree Sort
-- Shell Sort
-- Bucket Sort
-- Radix Sort
-- Counting Sort
-- Cubesort
 
 ## License
 
