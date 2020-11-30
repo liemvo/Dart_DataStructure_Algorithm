@@ -19,4 +19,4 @@ Clean and simple in Dart. There are several data structure and algorithm are imp
 This project is licensed under the **MIT License**.
 
 ## Author
-** Liem Vo ** - [Profile](https://github.com/liemvo/Dart_DataStructure_Algorithm/blob/master/Algorithm/BubbleSort/BubbleSort.dart)
+** Liem Vo ** - [Profile](https://github.com/liemvo)
